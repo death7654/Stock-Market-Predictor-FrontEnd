@@ -2,11 +2,12 @@
 {
     background-color: #282828;
     color: #fff;
-    height: 800px;
+    height: 700px;
 }
 .video
 {
     filter: brightness(.1);
     position: absolute;
     top: 0;
+    transform: translateY(-50px);
 }
