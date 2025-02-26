@@ -1,35 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
-
 /** Base colors */
-$clr-dark-a0: #000000;
-$clr-light-a0: #ffffff;
+:root{
+--clr-dark-a0: #000000;
+--clr-light-a0: #ffffff;
 
 /** Dark theme primary colors */
-$clr-primary-a0: #6056a0;
-$clr-primary-a10: #7267ab;
-$clr-primary-a20: #8379b5;
-$clr-primary-a30: #958bc0;
-$clr-primary-a40: #a69dca;
-$clr-primary-a50: #b8b0d5;
+--clr-primary-a0: #6056a0;
+--clr-primary-a10: #7267ab;
+--clr-primary-a20: #8379b5;
+--clr-primary-a30: #958bc0;
+--clr-primary-a40: #a69dca;
+--clr-primary-a50: #b8b0d5;
 
 /** Dark theme surface colors */
-$clr-surface-a0: #121212;
-$clr-surface-a10: #282828;
-$clr-surface-a20: #3f3f3f;
-$clr-surface-a30: #575757;
-$clr-surface-a40: #717171;
-$clr-surface-a50: #8b8b8b;
+--clr-surface-a0: #121212;
+--clr-surface-a10: #282828;
+--clr-surface-a20: #3f3f3f;
+--clr-surface-a30: #575757;
+--clr-surface-a40: #717171;
+--clr-surface-a50: #8b8b8b;
 
 /** Dark theme tonal surface colors */
-$clr-surface-tonal-a0: #1a191f;
-$clr-surface-tonal-a10: #2f2e34;
-$clr-surface-tonal-a20: #45444a;
-$clr-surface-tonal-a30: #5d5c61;
-$clr-surface-tonal-a40: #767579;
-$clr-surface-tonal-a50: #908f93;
+--clr-surface-tonal-a0: #383354;
+--clr-surface-tonal-a10: #4c4765;
+--clr-surface-tonal-a20: #605b77;
+--clr-surface-tonal-a30: #76718a;
+--clr-surface-tonal-a40: #8b879c;
+--clr-surface-tonal-a50: #a19eaf;
 
+}
  /** Examples */ 
 .bg-primary {
- color: $clr-primary-a50; 
- background-color: $clr-surface-a0; 
+ color: var(--clr-primary-a50); 
+ background-color: var(--clr-surface-a0); 
 }
