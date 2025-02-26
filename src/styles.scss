@@ -32,6 +32,7 @@ $clr-surface-tonal-a50: #908f93;
 // Option B: Include parts of Bootstrap
 
 
+
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
 
@@ -48,6 +49,10 @@ $bs-primary-rgb: $primary;
 
 $position-values: (
   0: 0,
+  20: 20%,
+  25: 25%,
+  30: 30%,
+  40: 40%,
   50: 50%,
   90: 90%,
   100: 100%
