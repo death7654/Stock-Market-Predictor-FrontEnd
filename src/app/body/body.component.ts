@@ -7,8 +7,8 @@ import { TilesComponent } from "./tiles/tiles.component";
   templateUrl: './body.component.html',
   styleUrl: './body.component.scss'
 })
-export class BodyComponent {
 
+export class BodyComponent {
   advertisement = [
     {
       title: "Precision",
