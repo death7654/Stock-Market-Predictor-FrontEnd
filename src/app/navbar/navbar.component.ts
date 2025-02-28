@@ -33,10 +33,4 @@ export class NavbarComponent {
     }
   }
 
-  scrollToSupMarkets(){
-    const supmarkSection = document.getElementById('supmark');
-    if (supmarkSection) {
-      supmarkSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }
 }
