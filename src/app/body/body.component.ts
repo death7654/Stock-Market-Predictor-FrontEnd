@@ -11,83 +11,103 @@ export class BodyComponent {
 
   data = [
     {
-      name: "GOOG",
+      name: "Google",
+      market_name: "GOOG",
       image: "../../assets/icons/google.svg"
     },
     {
-      name: "AAPL",
+      name: "Apple",
+      market_name: "AAPL",
       image: ""
     },
     {
-      name: "MSFT",
+      name: "Microsoft",
+      market_name: "MSFT",
       image: ""
     },
     {
-      name: "META",
+      name: "Meta",
+      market_name: "META",
       image: ""
     },
     {
-      name: "TSLA",
+      name: "Tesla",
+      market_name: "TSLA",
       image: ""
     },
     {
-      name: "TWTR",
+      name: "Twitter",
+      market_name: "TWTR",
       image: ""
     },
     {
-      name: "NVDA",
+      name: "Nvidia",
+      market_name: "NVDA",
       image: ""
     },
     {
-      name: "AMZN",
+      name: "Amazon",
+      market_name: "AMZN",
       image: ""
     },
     {
-      name: "LLY",
+      name: "Eli Lilly And Co",
+      market_name: "LLY",
       image: ""
     },
     {
-      name: "ORCL",
+      name: "Oracle",
+      market_name: "ORCL",
       image: ""
     },
     {
-      name: "COST",
+      name: "Costco",
+      market_name: "COST",
       image: ""
     },
     {
-      name: "NFLX",
+      name: "Netflix",
+      market_name: "NFLX",
       image: ""
     },
     {
-      name: "JNJ",
+      name: "Johnson & Johnson",
+      market_name: "JNJ",
       image: ""
     },
     {
-      name: "HD",
+      name: "Home Depot",
+      market_name: "HD",
       image: ""
     },
     {
-      name: "BAC",
+      name: "Bank of America",
+      market_name: "BAC",
       image: ""
     },
     {
-      name: "TMUS",
+      name: "T-Mobile",
+      market_name: "TMUS",
       image: ""
     },
     {
-      name: "CSCO",
+      name: "Cisco",
+      market_name: "CSCO",
       image: ""
     },
     {
-      name: "WTC",
+      name: "WiseTech Global",
+      market_name: "WTC",
       image: ""
     },
     {
-      name: "TM",
+      name: "Toyota",
+      market_name: "TM",
       image: ""
     },
     {
       name: "IBM",
+      market_name: "IBM",
       image: ""
     }
   ]
