@@ -94,6 +94,41 @@ export class BodyComponent {
       name: "IBM",
       market_name: "IBM",
       image: "../../assets/icons/ibm.svg"
+    },
+    {
+      name: "AMD",
+      market_name: "AMD",
+      image: "../../assets/icons/amd.svg"
+    },
+    {
+      name: "Intel",
+      market_name: "INTC",
+      image: "../../assets/icons/intel.svg"
+    },
+    {
+      name: "Walmart",
+      market_name: "WMT",
+      image: "../../assets/icons/walmart.svg"
+    },
+    {
+      name: "Starbucks",
+      market_name: "SBUX",
+      image: "../../assets/icons/starbucks.svg"
+    },
+    {
+      name: "McDonald's",
+      market_name: "MCD",
+      image: "../../assets/icons/mcdonald.svg"
+    },
+    {
+      name: "Burger King",
+      market_name: "BKC",
+      image: "../../assets/icons/burgerking.svg"
+    },
+    {
+      name: "Nintendo",
+      market_name: "NTDOY",
+      image: "../../assets/icons/nintendo.svg"
     }
   ]
 
