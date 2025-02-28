@@ -1,4 +1,37 @@
 <div class="body position-relative">
-<span>body works</span>
-<app-tiles [image]="'../../assets/icons/google.svg'" [name]="'GOOG'"></app-tiles>
+    <div class="container text-center advertisement position-relative">
+        <div class="row align-items-start">
+            @for(item of advertisement; track item.title)
+            {
+            <div class="col text-start">
+                <div class="title">
+                    <p>{{item.title}}</p>
+                </div>
+                <div class="description top-0">
+                    <p>
+                        {{item.description}}
+                    </p>
+                </div>
+            </div>
+            }
+            <hr>
+        </div>
+        <div class="row align-items-start">
+            <div class="col">
+                <div class="image">
+
+                </div>
+                <div class="image_text_title">
+                    <p>Welcome to the Next Generation of Research Platform</p>
+                </div>
+                <div class="image_text_description">
+                    <p>Find the Needle in a Haystack.</p>
+                </div>
+                <div class="image_text_paragraph">
+                    <p>Manually reading and understanding data is a thing of the past. With our state of the art algoritims and technology. 
+                        Harness the power of AI and let your wallet grow on its own.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

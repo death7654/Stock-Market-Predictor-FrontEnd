@@ -9,6 +9,21 @@ import { TilesComponent } from "./tiles/tiles.component";
 })
 export class BodyComponent {
 
+  advertisement = [
+    {
+      title: "Precision",
+      description: "Advanced algorithms analyze market trends with pinpoint accuracy, ensuring data-driven investment decisions"
+    },
+    {
+      title: "Automation",
+      description: "Our system removes human error and emotions by automating investments, executing trades at the perfect moment"
+    },
+    {
+      title: "Optimization",
+      description: "Continuous learning and adaptation refine strategies, maximizing returns while managing risk efficiently"
+    }
+  ]
+
   data = [
     {
       name: "Google",

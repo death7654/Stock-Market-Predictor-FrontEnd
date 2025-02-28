@@ -1,7 +1,7 @@
 .home_page
 {
     //background-color: #282828;
-    background-image: url('../../assets/4k-New-York-City-Twilight-4K-Wallpaper.jpg');
+    background-image: url('../../assets/4k-New-York-City-Twilight-4K-Wallpaper.png');
     color: #fff;
     height: 125vh;
     background-repeat: no-repeat;
@@ -9,9 +9,13 @@
 }
 .offset_row
 {
-    top: 35vh;
+    top: 25vh;
 }
 .name
 {
     font-size: 50px ;
+}
+.button_type
+{
+    font-size: 20px;
 }
