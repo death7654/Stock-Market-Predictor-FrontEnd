@@ -16,6 +16,48 @@
 {
     font-size: 20px;
 }
-hr{
+hr.offset{
+    position: relative;
+    top: 3vh;
     border: 1px solid black;
+}
+.image
+{
+    width: 50%;
+}
+.image_transform
+{
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    backface-visibility: hidden;
+    transform: perspective(760px) rotateY(12deg);
+    box-shadow: 1 1 1 1 1;
+}
+.offset_text
+{
+    top: 12vh;
+    line-height: 30px;
+}
+.image_text_title
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+.image_text_description
+{
+    font-size: 35px;
+    font-weight: 700;
+}
+.image_text_paragraph
+{
+    font-size: 20px;
+}
+.offset_stocks
+{
+    top: 20vh;
+}
+.market_title
+{
+    font-size: 50px;
+    font-weight: 600;
 }

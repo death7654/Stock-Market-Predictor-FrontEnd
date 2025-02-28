@@ -14,24 +14,44 @@
                 </div>
             </div>
             }
-            <hr>
+            <hr class="offset">
         </div>
-        <div class="row align-items-start">
-            <div class="col">
-                <div class="image">
-                    <img src="">
-                </div>
-                <div class="image_text_title">
-                    <p>Welcome to the Next Generation of Research Platform</p>
-                </div>
-                <div class="image_text_description">
-                    <p>Find the Needle in a Haystack.</p>
-                </div>
-                <div class="image_text_paragraph">
-                    <p>Manually reading and understanding data is a thing of the past. With our state of the art algoritims and technology. 
-                        Harness the power of AI and let your wallet grow on its own.</p>
+        <div class="row align-items-start position-relative offset_text">
+            <div class="col-8">
+                <div class="image w-100">
+                    <img src="../../assets/data.png" class="w-100 image_transform">
                 </div>
             </div>
+            <div class="col-4">
+                <div class="container text-start position-relative offset_text">
+                    <div class="row align-items-start image_text_title">
+                        <div class="col">
+                            <p>Welcome to the Next Generation of Investing</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-start image_text_description">
+                        <div class="col">
+                            <p>Find the needle in the haystack</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-start image_text_paragraph">
+                        <div class="col">
+                            <p>Manually reading and understanding data is a thing of the past. With our state of the art
+                                algoritims and technology.
+                                Harness the power of AI and let your wallet grow on its own.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row offset_stocks position-relative">
+            <p class="market_title">Supported Markets</p>
+            @for(item of data; track item.name)
+            {
+                <div class="col">
+                    <app-tiles [name]="item.name" [image]="item.image" class="p-3"></app-tiles>
+                </div>
+            }
         </div>
     </div>
 </div>

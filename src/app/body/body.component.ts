@@ -33,97 +33,67 @@ export class BodyComponent {
     {
       name: "Apple",
       market_name: "AAPL",
-      image: ""
+      image: "../../assets/icons/apple.svg"
     },
     {
       name: "Microsoft",
       market_name: "MSFT",
-      image: ""
+      image: "../../assets/icons/microsoft.svg"
     },
     {
       name: "Meta",
       market_name: "META",
-      image: ""
+      image: "../../assets/icons/meta.svg"
     },
     {
       name: "Tesla",
       market_name: "TSLA",
-      image: ""
+      image: "../../assets/icons/tesla.svg"
     },
     {
       name: "Twitter",
       market_name: "TWTR",
-      image: ""
+      image: "../../assets/icons/twitter.svg"
     },
     {
       name: "Nvidia",
       market_name: "NVDA",
-      image: ""
+      image: "../../assets/icons/nvidia.svg"
     },
     {
       name: "Amazon",
       market_name: "AMZN",
-      image: ""
-    },
-    {
-      name: "Eli Lilly And Co",
-      market_name: "LLY",
-      image: ""
+      image: "../../assets/icons/amazon.svg"
     },
     {
       name: "Oracle",
       market_name: "ORCL",
-      image: ""
+      image: "../../assets/icons/oracle.svg"
     },
     {
       name: "Costco",
       market_name: "COST",
-      image: ""
+      image: "../../assets/icons/costco.svg"
     },
     {
       name: "Netflix",
       market_name: "NFLX",
-      image: ""
-    },
-    {
-      name: "Johnson & Johnson",
-      market_name: "JNJ",
-      image: ""
-    },
-    {
-      name: "Home Depot",
-      market_name: "HD",
-      image: ""
-    },
-    {
-      name: "Bank of America",
-      market_name: "BAC",
-      image: ""
-    },
-    {
-      name: "T-Mobile",
-      market_name: "TMUS",
-      image: ""
+      image: "../../assets/icons/netflix.svg"
     },
     {
       name: "Cisco",
       market_name: "CSCO",
-      image: ""
-    },
-    {
-      name: "WiseTech Global",
-      market_name: "WTC",
-      image: ""
+      image: "../../assets/icons/cisco.svg"
     },
     {
       name: "Toyota",
       market_name: "TM",
-      image: ""
+      image: "../../assets/icons/toyota.svg"
     },
     {
       name: "IBM",
       market_name: "IBM",
-      image: ""
+      image: "../../assets/icons/ibm.svg"
     }
   ]
 
