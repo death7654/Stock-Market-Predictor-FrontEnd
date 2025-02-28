@@ -1,12 +1,21 @@
 .home_page
 {
-    background-color: #282828;
+    //background-color: #282828;
+    background-image: url('../../assets/4k-New-York-City-Twilight-4K-Wallpaper.png');
     color: #fff;
-    height: 100vh;
+    height: 125vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-.video
+.offset_row
 {
-    filter: brightness(.1);
-    transform: translateY(-50px);
-    min-width: 100%;
+    top: 25vh;
+}
+.name
+{
+    font-size: 50px ;
+}
+.button_type
+{
+    font-size: 20px;
 }
