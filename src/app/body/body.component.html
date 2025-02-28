@@ -16,43 +16,47 @@
             }
             <hr class="offset">
         </div>
-        <div class="row align-items-start position-relative offset_text">
-            <div class="col-8">
-                <div class="image w-100">
-                    <img src="../../assets/data.png" class="w-100 image_transform">
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="container text-start position-relative offset_text">
-                    <div class="row align-items-start image_text_title">
-                        <div class="col">
-                            <p>Welcome to the Next Generation of Investing</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-start image_text_description">
-                        <div class="col">
-                            <p>Find the needle in the haystack</p>
-                        </div>
-                    </div>
-                    <div class="row align-items-start image_text_paragraph">
-                        <div class="col">
-                            <p>Manually reading and understanding data is a thing of the past. With our state of the art
-                                algoritims and technology.
-                                Harness the power of AI and let your wallet grow on its own.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div id="discover">
+          <div class="row align-items-start position-relative offset_text">
+              <div class="col-8">
+                  <div class="image w-100">
+                      <img src="../../assets/data.png" class="w-100 image_transform">
+                  </div>
+              </div>
+              <div class="col-4">
+                  <div class="container text-start position-relative offset_text">
+                      <div class="row align-items-start image_text_title">
+                          <div class="col">
+                              <p>Welcome to the Next Generation of Investing</p>
+                          </div>
+                      </div>
+                      <div class="row align-items-start image_text_description">
+                          <div class="col">
+                              <p>Find the needle in the haystack</p>
+                          </div>
+                      </div>
+                      <div class="row align-items-start image_text_paragraph">
+                          <div class="col">
+                              <p>Manually reading and understanding data is a thing of the past. With our state of the art
+                                  algoritims and technology.
+                                  Harness the power of AI and let your wallet grow on its own.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
-        <div class="row offset_stocks position-relative">
-            <p class="market_title">Supported Markets</p>
-            @for(item of data; track item.name)
-            {
-            <div class="col">
-                <app-tiles [name]="item.name" [image]="item.image" class="p-3"></app-tiles>
-            </div>
-            }
+        <div id="supmark">
+          <div class="row offset_stocks position-relative">
+              <p class="market_title">Supported Markets</p>
+              @for(item of data; track item.name){
+              <div class="col">
+                  <app-tiles [name]="item.name" [image]="item.image" class="p-3"></app-tiles>
+              </div>
+              }
+          </div>
         </div>
+<<<<<<< HEAD
         <div class="row offset_pricing position-relative">
             <p class="market_title">Pricing</p>
             <div class="col">
@@ -91,6 +95,41 @@
                     <button type="button" class="btn btn-outline-dark">Contact Us</button>
                 </div>
             </div>
+=======
+        <div id="pricing">
+          <div class="row offset_pricing position-relative">
+              <p class="market_title">Pricing</p>
+              <div class="col">
+                  <div class="rounded-4 border border-dark text-start p-3 pricing_tile">
+                      <p class="intended_user">For New Users</p>
+                      <p class="class">Free</p>
+                      <p class="intended_user">Free access to one business</p>
+                      <p class="price">$0 <span class="USD">USD</span></p>
+                      <p class="month">/month</p>
+                      <button>create account</button>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="rounded-4 border border-dark text-start p-3 pricing_tile">
+                      <p class="intended_user">For Everyone</p>
+                      <p class="class">Pro</p>
+                      <p class="intended_user">Access to all business</p>
+                      <p class="price">$20 <span class="USD">USD</span></p>
+                      <p class="month">/month</p>
+                      <button>Get Started</button>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="rounded-4 border border-dark text-start p-3 pricing_tile">
+                      <p class="intended_user">For Larger Organizations</p>
+                      <p class="class">Enterprise</p>
+                      <p>Access to all business, API, direct support, and newer more accurate algorithms</p>
+                      <button>Contact Us</button>
+                  </div>
+                  <div class="extendo"> .</div>
+              </div>
+          </div>
+>>>>>>> navbar
         </div>
     </div>
 </div>
