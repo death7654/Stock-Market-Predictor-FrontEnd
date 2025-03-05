@@ -49,6 +49,7 @@ $bs-primary-rgb: $primary;
 
 $position-values: (
   0: 0,
+  10: 10%,
   20: 20%,
   25: 25%,
   30: 30%,
@@ -79,7 +80,7 @@ html,body
 {
     background-color: #fff;
     color: #fff;
-    height: 10000px;
+    height: auto;
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none; 

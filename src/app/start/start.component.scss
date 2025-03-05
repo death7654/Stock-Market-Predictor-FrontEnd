@@ -1,23 +1,63 @@
-.home_page
-{
-    //background-color: #282828;
-    background-image: url('../../assets/4k-New-York-City-Twilight-4K-Wallpaper.png');
+.home_page {
     color: #fff;
-    height: 125vh;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    min-height: 100vh;
 }
-.offset_row
-{
-    top: 10vh;
-}
-.name
-{
-    font-size: 50px ;
-}
-.button_type
-{
-    font-size: 20px;
+.background-img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 
+.name {
+    font-size: 4rem;
+}
+
+.button_type {
+    font-size: 1.25rem;
+}
+.container_mobile
+{
+    width: 50%;
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    .name {
+        text-align: center;
+    }
+    .slogan
+    {
+        text-align: center;
+    }
+    .container_mobile
+    {
+        width: 90%;
+    }
+
+    .button_type {
+        font-size: 18px;
+    }
+
+    .home_page {
+        background-size: contain; /* Ensures the full image is visible on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .name {
+        text-align: center;
+    }
+    .slogan
+    {
+        text-align: center;
+    }
+    .button_type {
+        text-align: center;
+    }
+    .button_container
+    {
+        width: 100%;
+        align-items: center;
+    }
+}

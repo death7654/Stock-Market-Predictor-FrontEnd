@@ -1,17 +1,32 @@
-<nav class="navbar navbar-expand-lg navbar-light navbar-custom sticky-top float-start w-100">
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top fixed-top">
   <a class="navbar-brand brand-pad" href="../../index.html" style="color: black; font-weight: bold;">
     <img src="../../assets/wallet icon.svg" width="45" height="45" alt="">
     Wallet ++
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+    aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" [class.active]="activeLink === 'home'" href="javascript:void(0)" (click)="scrollToTop()">Home</a>
-      <a class="nav-item nav-link" [class.active]="activeLink === 'discover'" href="javascript:void(0)" (click)="scrollToDiscover()">Discover</a>
-      <a class="nav-item nav-link" [class.active]="activeLink === 'pricing'" href="javascript:void(0)" (click)="scrollToPricing()">Pricing</a>
-      <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Wallet++</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)"
+            (click)="scrollToTop()">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)"
+            (click)="scrollToDiscover()">Discover</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="javascript:void(0)"
+            (click)="scrollToPricing()">Pricing</a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
