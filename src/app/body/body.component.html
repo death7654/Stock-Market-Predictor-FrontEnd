@@ -1,6 +1,6 @@
-<div class="body position-relative">
-    <div class="container text-center advertisement position-relative">
-        <div class="row align-items-start">
+<div class="body position-absolute p-0 m-0 w-100">
+    <div class="container text-center w-100">
+        <div class="row d-flex justify-content-center pt-5">
             @for(item of advertisement; track item.title)
             {
             <div class="col text-start">
@@ -14,16 +14,16 @@
                 </div>
             </div>
             }
-            <hr class="offset">
+            <hr class="border border-dark">
         </div>
-        <div class="row align-items-start position-relative offset_text">
+        <div class="row align-items-start pt-5">
             <div class="col-8">
-                <div class="image w-100">
+                <div class="w-100">
                     <img src="../../assets/data.png" class="w-100 image_transform">
                 </div>
             </div>
             <div class="col-4">
-                <div class="container text-start position-relative offset_text">
+                <div class="container text-start">
                     <div class="row align-items-start image_text_title">
                         <div class="col">
                             <p>Welcome to the Next Generation of Investing</p>
