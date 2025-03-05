@@ -15,51 +15,35 @@
 .image_transform
 {
     transform-style: preserve-3d;
-    transition: transform 1s;
     backface-visibility: hidden;
     transform: perspective(760px) rotateY(12deg);
     box-shadow: 1 1 1 1 1;
 }
 
-.offset_text{
-  top: 12vh;
-  line-height: 30px;
-}
 
 .image_text_title{
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 .image_text_description{
-  font-size: 35px;
-  font-weight: 700;
+  font-size: 2rem;
 }
 
 .image_text_paragraph{
-  font-size: 20px;
-}
-
-.offset_stocks{
-  top: 20vh;
+  font-size: 1.3rem;
 }
 
 .market_title{
-  font-size: 50px;
-  font-weight: 600;
-}
-
-.offset_pricing{
-  top: 30vh;
+  font-size: 3rem;
 }
 
 .pricing_tile{
   height: fit-content;
-  line-height: 30px;
+  line-height: 2rem;
 }
 
 .intended_user{
-  font-size: 15px;
+  font-size: 1rem;
   color: #029450;
 }
 
@@ -68,20 +52,18 @@
 }
 
 .class{
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 2rem;
 }
 
 .price{
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 3rem;
 }
 
 .USD{
-  font-weight: 400;
-  font-size: 40px;
+  font-size: 2.4rem;
 }
 
 .month{
   color: #7e7e7e;
 }
+

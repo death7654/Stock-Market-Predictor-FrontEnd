@@ -1,15 +1,41 @@
-import { Component } from '@angular/core';
+import { Component, HostListener, Renderer2 } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { start } from 'repl';
 
 @Component({
   selector: 'app-navbar',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
 
 export class NavbarComponent {
   activeLink = 'home';
+
+
+  constructor(private renderer: Renderer2) {}
+
+
+  @HostListener('window:scroll', [])
+  onScroll(): void {
+    const navbar = document.getElementById("navbar");
+
+    // Get background color of body or navbar
+
+    // Convert RGB to brightness value
+    const scrollPosition = window.scrollY;
+    console.log(scrollPosition);
+    if(scrollPosition > 200)
+      {
+        navbar?.classList.add("navbar_black");
+        navbar?.classList.remove("navbar_transparent");
+      }
+      else{
+        navbar?.classList.remove("navbar_black");
+        navbar?.classList.add("navbar_transparent");
+      } 
+  }
+
 
   setActive(link: string) {
     this.activeLink = link;

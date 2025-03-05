@@ -1,66 +1,76 @@
-.home_page{
+/* Main container */
+.home_page {
   color: #fff;
   min-height: 100vh;
-  overflow: auto;
+  width: 100vw;
 }
 
-.background-img{
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  position: relative;
+  z-index: -1;
 }
 
-
-.name{
+.name {
   font-size: 4rem;
 }
 
-.button_type{
+.button_type {
   font-size: 1.25rem;
 }
 
-.container_mobile{
+.container_mobile {
   width: 50%;
 }
 
+/* Tablet & Small Screens */
 @media (max-width: 768px) {
-  .name{
+  .name,
+  .slogan {
     text-align: center;
   }
-  
-  .slogan{
-    text-align: center;
-  }
-  
-  .container_mobile{
-    width: 90%;
+
+  .container_mobile {
+    width: 100%;
   }
 
   .button_type {
     font-size: 18px;
+    display: block;
+    margin: 0 auto;
   }
 
   .home_page {
-    background-size: contain; /* Ensures the full image is visible on smaller screens */
+    background-size: cover;
   }
 }
 
+/* Mobile Phones */
 @media (max-width: 480px) {
-  .name {
+  .name,
+  .slogan {
     text-align: center;
   }
-  
-  .slogan{
-    text-align: center;
+
+  .background-img {
+    width: 100%;
+    height: 100vh;
   }
 
   .button_type {
+    display: block;
     text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
   }
 
-  .button_container{
+  .button_container {
     width: 100%;
-    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 }

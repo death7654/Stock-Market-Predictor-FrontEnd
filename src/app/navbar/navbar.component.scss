@@ -1,7 +1,14 @@
-.navbar-custom{
-  background-color: rgba(0, 0, 0, 0);
-  height: 80px;
-  backdrop-filter: blur(30px);
+
+.navbar_transparent
+{
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+}
+.navbar_black{
+  transition: 0.5s;
+  background-color: black;
+  box-shadow: 0,3px, 10px, rgba(0,0,0,0.15);
 }
 
 .brand-pad{
