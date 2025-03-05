@@ -4,9 +4,9 @@ import { Component, Input } from '@angular/core';
   selector: 'app-tiles',
   imports: [],
   templateUrl: './tiles.component.html',
-  styleUrl: './tiles.component.scss'
+  styleUrl: './tiles.component.scss',
 })
 export class TilesComponent {
-  @Input() name: String = "";
-  @Input() image: String = "";
+  @Input() name: String = '';
+  @Input() image: String = '';
 }

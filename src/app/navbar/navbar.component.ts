@@ -6,42 +6,36 @@ import { start } from 'repl';
   selector: 'app-navbar',
   imports: [CommonModule],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss'
+  styleUrl: './navbar.component.scss',
 })
-
 export class NavbarComponent {
   activeLink = 'home';
 
-
   constructor(private renderer: Renderer2) {}
-
 
   @HostListener('window:scroll', [])
   onScroll(): void {
-    const navbar = document.getElementById("navbar");
+    const navbar = document.getElementById('navbar');
 
     // Get background color of body or navbar
 
     // Convert RGB to brightness value
     const scrollPosition = window.scrollY;
     console.log(scrollPosition);
-    if(scrollPosition > 200)
-      {
-        navbar?.classList.add("navbar_black");
-        navbar?.classList.remove("navbar_transparent");
-      }
-      else{
-        navbar?.classList.remove("navbar_black");
-        navbar?.classList.add("navbar_transparent");
-      } 
+    if (scrollPosition > 200) {
+      navbar?.classList.add('navbar_black');
+      navbar?.classList.remove('navbar_transparent');
+    } else {
+      navbar?.classList.remove('navbar_black');
+      navbar?.classList.add('navbar_transparent');
+    }
   }
-
 
   setActive(link: string) {
     this.activeLink = link;
   }
 
-  scrollToTop(){
+  scrollToTop() {
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
   }
@@ -58,5 +52,4 @@ export class NavbarComponent {
       discoverSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
-
 }
