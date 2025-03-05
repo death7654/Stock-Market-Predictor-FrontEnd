@@ -1,11 +1,14 @@
 .home_page {
-    color: #fff;
-    min-height: 100vh;
+  color: #fff;
+  min-height: 100vh;
+  overflow: auto;
 }
+
 .background-img {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    position: relative;
 }
 
 
