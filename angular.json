@@ -37,9 +37,14 @@
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [ "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            "scripts": [  
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
           ],
-            "prerender": false
+            "server": "src/main.server.ts",
+            "prerender": false,
+            "ssr": {
+              "entry": "src/server.ts"
+            }
           },
           "configurations": {
             "production": {
@@ -56,7 +61,7 @@
                 }
               ],
               "outputHashing": "all",
-              "optimization": true,
+              "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
             },
